@@ -7,6 +7,41 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const workExperience = [
+  {
+    id: 1,
+    title: "Full Stack Development Trainer",
+    subtitle: "@ G-Tech Computer Education - Present",
+    desc: "Delivering training on full stack web development, guiding students through real-world projects and modern technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
+    title: "Junior Software Engineer",
+    subtitle: "@ Estro Tech Robotics Pvt.Ltd - 2023 - 2024",
+    desc: "Contributed to web application development using React.js, Node.js, and MongoDB, focusing on UI enhancements and API integrations.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 3,
+    title: "Graphic Designer",
+    subtitle: "Bakish Global, Zahra Collections - Part-time",
+    desc: "Designed branding materials, promotional graphics, and social media content to enhance client visual presence.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 4,
+    title: "Freelance App Dev Project",
+    subtitle: "Custom MERN Web Applications",
+    desc: "Built full stack MERN web applications with authentication, CRUD operations, and responsive UI for client needs.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+];
+
 export const gridItems = [
   {
     id: 1,
@@ -171,42 +206,6 @@ export const companies = [
     nameImg: "/dockerName.svg",
   },
 ];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Full Stack Development Trainer",
-    subtitle: "@ G-Tech Computer Education - Present",
-    desc: "Conduct training sessions on full stack development, covering HTML, CSS, JavaScript, React, Node.js, and databases. Mentored students through projects and real-world application building.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-  {
-    id: 2,
-    title: "Junior Software Engineer",
-    subtitle: "@ G-Tech Computer Education - 2023 - 2024",
-    desc: "Worked on web-based applications using React.js, Node.js, and MongoDB. Contributed to UI enhancements, API integrations, and bug fixes to improve platform performance.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 3,
-    title: "Graphic Designer",
-    subtitle: "Bakish Global, Zahra Collections - Part-time",
-    desc: "Designed marketing materials, social media creatives, and brand assets using Adobe Photoshop and Illustrator. Collaborated with clients to create visually appealing designs.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 4,
-    title: "Freelance App Dev Project",
-    subtitle: "Custom Client Project",
-    desc: "Developed a mobile application from concept to deployment using React Native. Handled UI/UX design, API integration, and publishing to Google Play Store and Apple App Store.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-];
-
 
 export const socialMedia = [
   {
