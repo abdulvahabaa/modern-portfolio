@@ -1,11 +1,75 @@
-import { sub } from "framer-motion/client";
-
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Home", link: "#home" },
+  { name: "Skills", link: "#skills" },
+  { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/github.svg",
+    link: "https://github.com/abdulvahabaa",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/abdulvahabaa/",
+  },
+  {
+    id: 3,
+    img: "/behance.svg",
+    link: "https://www.behance.net/abdulvahabaa",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/abdulvahabaa/",
+  },
+  {
+    id: 5,
+    img: "/youtube-logo.svg",
+    link: "https://www.youtube.com/@abdulvahabaa",
+  },
+];
+
+export const SkillLogos = [
+  // Frontend Basics
+  { id: 1,  img: "/HTML5.svg" },
+  { id: 2,  img: "/CSS3.svg" },
+  { id: 3,  img: "/JavaScript.svg" },
+  { id: 4,  img: "/TypeScript.svg" },
+
+  // Frameworks & Libraries
+  { id: 5,  img: "/react.svg" },
+  { id: 6,  img: "/next.js.svg" },
+  { id: 7,  img: "/Tailwind CSS.svg" },
+
+  // Backend & Databases
+  { id: 8,  img: "/Node.js.svg" },
+  { id: 9,  img: "/Git.svg" },
+  { id: 10, img: "/PostgresSQL.svg" },
+  { id: 11, img: "/MongoDB.svg" },
+
+  // DevOps & Cloud
+  { id: 12, img: "/Docker.svg" },
+  { id: 13, img: "/AWS.svg" },
+  { id: 14, img: "/Powershell.svg" },
+
+  // Tools & Editors
+  { id: 15, img: "/VS Code.svg" },
+  { id: 16, img: "/Figma.svg" },
+  { id: 17, img: "/Postman.svg" },
+
+  // Adobe Creative Suite
+  { id: 18, img: "/Adobe Photoshop.svg" },
+  { id: 19, img: "/Adobe Illustrator.svg" },
+  { id: 20, img: "/Adobe XD.svg" },
+  { id: 21, img: "/Adobe Premiere Pro.svg" },
+];
+
 
 export const workExperience = [
   {
@@ -204,20 +268,5 @@ export const companies = [
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
   },
 ];
