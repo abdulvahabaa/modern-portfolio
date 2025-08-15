@@ -7,7 +7,7 @@ import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-10 pt-31">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -31,9 +31,6 @@ const Hero = () => {
       </div>
       <div className="flex justify-start relative my-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js, Tailwind CSS, and Framer Motion
-          </p> */}
 
           <TextGenerateEffect
             words="Hi! I'm Abdul Vahab"
@@ -62,7 +59,7 @@ const Hero = () => {
           </a>
         </div>
         <div>
-          <img className="w-60 md:w-80 lg:w-96 object-contain" src="/image no bakground.png" alt="hero" />
+          <img className="max-w-xs md:max-w-sm lg:max-w-md" src="/profile image.png" alt="hero" />
         </div>
       </div>
     </div>

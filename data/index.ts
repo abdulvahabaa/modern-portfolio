@@ -214,10 +214,18 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/behance.svg",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+  },
+  {
+    id: 5,
+    img: "/youtube-logo.svg",
   },
 ];
