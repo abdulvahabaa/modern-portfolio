@@ -1,10 +1,9 @@
-import { img, sub } from "framer-motion/client";
-
 export const navItems = [
   { name: "Home", link: "#home" },
+  { name: "Skills", link: "#skills" },
   { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
 

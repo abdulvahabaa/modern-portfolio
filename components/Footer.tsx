@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
@@ -17,18 +17,21 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Let’s <span className="text-purple">Connect</span> and{" "}
+          <span className="text-purple">Build</span> Something{" "}
+          <span className="text-purple">Amazing</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        <p className="text-white-200 md:mt-10 my-5 text-lg text-center">
+          I love connecting with developers, designers, and tech enthusiasts.
+          Have a project, question, or idea? Let’s talk and create something
+          impactful.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+
+        <a href="mailto:abdulvahabaa916@gmail.com">
           <MagicButton
             title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
+            icon={<FaWhatsapp />}
+            position="left"
           />
         </a>
       </div>
