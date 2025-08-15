@@ -7,7 +7,7 @@ import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
-    <div className="pb-10 pt-31">
+    <div className="pb-10 pt-31" id="home">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -31,7 +31,6 @@ const Hero = () => {
       </div>
       <div className="flex justify-start relative my-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-
           <TextGenerateEffect
             words="Hi! I'm Abdul Vahab"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -42,14 +41,27 @@ const Hero = () => {
           </p>
           <div className="flex items-center md:gap-3 gap-6">
             {socialMedia.map((info) => (
-              <div
+              <a
                 key={info.id}
-                className="w-10 h-10 my-4 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                href={info.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 my-4 cursor-pointer flex justify-center items-center 
+                 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
+                 rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
+                 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/50"
               >
-                <img src={info.img} alt="icons" width={20} height={20} />
-              </div>
+                <img
+                  src={info.img}
+                  alt="icons"
+                  width={20}
+                  height={20}
+                  className="transition duration-300 hover:brightness-125"
+                />
+              </a>
             ))}
           </div>
+
           <a href="#about">
             <MagicButton
               title="Show my work"
@@ -59,7 +71,11 @@ const Hero = () => {
           </a>
         </div>
         <div>
-          <img className="max-w-xs md:max-w-sm lg:max-w-md" src="/profile image.png" alt="hero" />
+          <img
+            className="max-w-xs md:max-w-sm lg:max-w-md"
+            src="/profile image.png"
+            alt="hero"
+          />
         </div>
       </div>
     </div>
