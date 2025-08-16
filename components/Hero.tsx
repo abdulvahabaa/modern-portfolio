@@ -2,7 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import { RiFileDownloadFill } from "react-icons/ri";
 import { socialMedia } from "@/data";
 
 const Hero = () => {
@@ -37,7 +37,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Web Developer | Graphic Desinger | Freelancer | Based in India.
+            Web Developer | Graphic Desinger | UI/UX Developer | Freelancer | Based in India.
           </p>
           <div className="flex items-center md:gap-3 gap-6">
             {socialMedia.map((info) => (
@@ -64,16 +64,16 @@ const Hero = () => {
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
+              title="Download Resume"
+              icon={<RiFileDownloadFill />}
+              position="left"
             />
           </a>
         </div>
         <div>
           <img
             className="max-w-xs md:max-w-sm lg:max-w-md"
-            src="/profile image.png"
+            src="/Profile image edit.png"
             alt="hero"
           />
         </div>

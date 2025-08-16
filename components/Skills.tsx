@@ -13,7 +13,7 @@ const Skills = () => {
             key={info.id}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-20 h-20 my-4 cursor-pointer flex justify-center items-center 
+            className="w-20 h-20 my-4 flex justify-center items-center 
                          backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
                          rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
                          hover:scale-110 hover:shadow-lg hover:shadow-pink-500/50"

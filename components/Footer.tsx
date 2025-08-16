@@ -36,9 +36,12 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Abdul Vahab, All Rights Reserved
-        </p>
+        <div className="flex flex-col items-center p-4">
+          <p className="md:text-base text-sm md:font-normal font-light">
+            © 2025 Abdul Vahab • Professional Web Developer • Graphic Designer •
+            UI/UX Developer
+          </p>
+        </div>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
