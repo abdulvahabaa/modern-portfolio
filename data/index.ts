@@ -75,7 +75,8 @@ export const workExperience = [
   {
     id: 1,
     title: "Full Stack Development Trainer",
-    subtitle: "@ G-Tech Computer Education - Present",
+    subtitle: "@ G-Tech Computer Education",
+    duration: "2025 - Present",
     desc: "Delivering training on full stack web development, guiding students through real-world projects and modern technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -83,7 +84,8 @@ export const workExperience = [
   {
     id: 2,
     title: "Junior Software Engineer",
-    subtitle: "@ Estro Tech Robotics Pvt.Ltd - 2023 - 2024",
+    subtitle: "@ Estro Tech Robotics Pvt.Ltd.",
+    duration: "2023 - 2024",
     desc: "Contributed to web application development using React.js, Node.js, and MongoDB, focusing on UI enhancements and API integrations.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -91,7 +93,8 @@ export const workExperience = [
   {
     id: 3,
     title: "Graphic Designer",
-    subtitle: "Bakish Global, Zahra Collections - Part-time",
+    subtitle: "Bakish Global, Zahra Collections",
+    duration: "2024 - PartTime",
     desc: "Designed branding materials, promotional graphics, and social media content to enhance client visual presence.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
@@ -100,6 +103,7 @@ export const workExperience = [
     id: 4,
     title: "Freelance App Dev Project",
     subtitle: "Custom MERN Web Applications",
+    duration: "2024 - Present",
     desc: "Built full stack MERN web applications with authentication, CRUD operations, and responsive UI for client needs.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
