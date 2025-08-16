@@ -37,19 +37,19 @@ export const socialMedia = [
 
 export const SkillLogos = [
   // Frontend Basics
-  { id: 1,  img: "/HTML5.svg" },
-  { id: 2,  img: "/CSS3.svg" },
-  { id: 3,  img: "/JavaScript.svg" },
-  { id: 4,  img: "/TypeScript.svg" },
+  { id: 1, img: "/HTML5.svg" },
+  { id: 2, img: "/CSS3.svg" },
+  { id: 3, img: "/JavaScript.svg" },
+  { id: 4, img: "/TypeScript.svg" },
 
   // Frameworks & Libraries
-  { id: 5,  img: "/react.svg" },
-  { id: 6,  img: "/next.js.svg" },
-  { id: 7,  img: "/Tailwind CSS.svg" },
+  { id: 5, img: "/react.svg" },
+  { id: 6, img: "/next.js.svg" },
+  { id: 7, img: "/Tailwind CSS.svg" },
 
   // Backend & Databases
-  { id: 8,  img: "/Node.js.svg" },
-  { id: 9,  img: "/Git.svg" },
+  { id: 8, img: "/Node.js.svg" },
+  { id: 9, img: "/Git.svg" },
   { id: 10, img: "/PostgresSQL.svg" },
   { id: 11, img: "/MongoDB.svg" },
 
@@ -69,7 +69,6 @@ export const SkillLogos = [
   { id: 20, img: "/Adobe XD.svg" },
   { id: 21, img: "/Adobe Premiere Pro.svg" },
 ];
-
 
 export const workExperience = [
   {

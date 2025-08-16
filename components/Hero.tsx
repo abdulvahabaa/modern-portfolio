@@ -37,7 +37,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Web Developer | Graphic Desinger | UI/UX Developer | Freelancer | Based in India.
+            Web Developer | Graphic Desinger | UI/UX Developer | Freelancer |
+            Based in India.
           </p>
           <div className="flex items-center md:gap-3 gap-6">
             {socialMedia.map((info) => (
@@ -49,7 +50,7 @@ const Hero = () => {
                 className="w-10 h-10 my-4 cursor-pointer flex justify-center items-center 
                  backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
                  rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
-                 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/50"
+                 hover:scale-110 hover:shadow-lg hover:shadow-orange-500/70"
               >
                 <img
                   src={info.img}
