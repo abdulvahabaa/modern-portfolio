@@ -50,7 +50,7 @@ const Hero = () => {
                 className="w-10 h-10 my-4 cursor-pointer flex justify-center items-center 
                  backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
                  rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
-                 hover:scale-110 hover:shadow-lg hover:shadow-orange-500/70"
+                 hover:scale-110 hover:shadow-lg hover:shadow-orange-500/60"
               >
                 <img
                   src={info.img}

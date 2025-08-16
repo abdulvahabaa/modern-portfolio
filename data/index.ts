@@ -21,7 +21,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/behance.svg",
-    link: "https://www.behance.net/abdulvahabaa",
+    link: "https://www.behance.net/abdulvahab8",
   },
   {
     id: 4,
