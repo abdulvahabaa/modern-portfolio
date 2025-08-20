@@ -29,7 +29,7 @@ const Education = () => {
           <div
             key={edu.id}
             className="group relative border border-purple/20 rounded-2xl p-6 
-                       transition-all duration-500 hover:border-purple-400 hover:shadow-[0_0_30px_#CBACF933]"
+                       transition-all duration-500 hover:border-purple-600 hover:shadow-[0_0_30px_#CBACF933]"
           >
             {/* Icon */}
             <div

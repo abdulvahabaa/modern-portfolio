@@ -40,7 +40,12 @@ const Hero = () => {
             Web Developer | Graphic Desinger | UI/UX Developer | Freelancer |
             Based in India.
           </p>
-          <div className="flex items-center md:gap-3 gap-6">
+          <div
+            className="
+    flex flex-wrap lg:flex-nowrap 
+    items-center justify-center md:gap-3 gap-6
+  "
+          >
             {socialMedia.map((info) => (
               <a
                 key={info.id}
@@ -48,9 +53,9 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 my-4 cursor-pointer flex justify-center items-center 
-                 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
-                 rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
-                 hover:scale-110 hover:shadow-lg hover:shadow-orange-500/60"
+        backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 
+        rounded-lg border border-black-300 transition-all duration-300 ease-in-out 
+        hover:scale-110 hover:shadow-lg hover:shadow-orange-500/60"
               >
                 <img
                   src={info.img}
@@ -63,7 +68,7 @@ const Hero = () => {
             ))}
           </div>
 
-          <a href="#about">
+          <a href="/assets/Abdul Vahab Resume.pdf">
             <MagicButton
               title="Download Resume"
               icon={<RiFileDownloadFill />}
