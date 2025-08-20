@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub, FaPalette } from "react-icons/fa";
 import { projects } from "@/data";
 
 const RecentProjects = () => {
@@ -53,16 +54,42 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                {/* Live Site Link */}
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-purple-400 text-sm hover:text-pink-400 transition-colors"
-                >
-                  Live Site
-                  <FaLocationArrow className="ml-2 transition-transform duration-300 group-hover:rotate-45" />
-                </a>
+                {/* Links */}
+                <div className="flex gap-4">
+                  {item.worklink && (
+                    <a
+                      href={item.worklink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-300 text-sm hover:text-purple-400 transition-colors"
+                    >
+                      <FaPalette className="mr-1" /> Show
+                    </a>
+                  )}
+
+                  {item.codeLink && (
+                    <a
+                      href={item.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-300 text-sm hover:text-purple-400 transition-colors"
+                    >
+                      <FaGithub className="mr-1" /> Code
+                    </a>
+                  )}
+
+                  {item.liveLink && (
+                    <a
+                      href={item.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-purple-400 text-sm hover:text-pink-400 transition-colors"
+                    >
+                      Live{" "}
+                      <FaLocationArrow className="ml-1 transition-transform duration-300 group-hover:rotate-45" />
+                    </a>
+                  )}
+                </div>
               </footer>
             </div>
           </article>
