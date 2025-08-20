@@ -31,12 +31,12 @@ export const socialMedia = [
   {
     id: 5,
     img: "/insta.svg",
-    link: "https://www.instagram.com/abdulvahabaa/",
+    link: "https://www.instagram.com/abubakthiyarvlogs/",
   },
   {
     id: 6,
     img: "/youtube-logo.svg",
-    link: "https://www.youtube.com/@abdulvahabaa",
+    link: "https://www.youtube.com/@eldoradotechie",
   },
 ];
 
