@@ -7,7 +7,7 @@ import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
-    <div className="pb-10 pt-31" id="home">
+    <div className="py-20 pt-31" id="home">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -29,7 +29,7 @@ const Hero = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
-      <div className="flex justify-start relative my-10 z-10">
+      <div className="flex justify-start relative  z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             words="Hi! I'm Abdul Vahab"
@@ -40,12 +40,7 @@ const Hero = () => {
             Web Developer | Graphic Desinger | UI/UX Developer | Freelancer |
             Based in India.
           </p>
-          <div
-            className="
-    flex flex-wrap lg:flex-nowrap 
-    items-center justify-center md:gap-3 gap-6
-  "
-          >
+          <div className="flex items-center justify-center gap-3">
             {socialMedia.map((info) => (
               <a
                 key={info.id}
