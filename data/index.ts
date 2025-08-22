@@ -25,7 +25,7 @@ export const socialMedia = [
   },
   {
     id: 4,
-    img: "/behance.svg",
+    img: "/Behance.svg",
     link: "https://www.behance.net/abdulvahab8",
   },
   {
@@ -48,7 +48,7 @@ export const SkillLogos = [
   { id: 4, img: "/TypeScript.svg" },
 
   // Frameworks & Libraries
-  { id: 5, img: "/react.svg" },
+  { id: 5, img: "/React.svg" },
   { id: 6, img: "/next.js.svg" },
   { id: 7, img: "/Tailwind CSS.svg" },
 
@@ -169,7 +169,7 @@ export const projects = [
     des: "Developed a feature-rich platform supporting connections, posts, comments, replies, and S3 bucket for uploads.Implemented admin tools for managing users, reported posts, search, sort, filter, and export options (PDF/CSV).Secured the platform with JWT authentication for strong user protection.",
     img: "/assets/projcet pics/devconnect.jpg",
     iconLists: [
-      "/react.svg",
+      "/React.svg",
       "/Material UI.svg",
       "/Node.js.svg",
       "/MongoDB.svg",
@@ -199,7 +199,7 @@ export const projects = [
     title: "Slot Booking App",
     des: "A REAL Slot booking app built using React, Tailwind CSS, and Vite.js For the frontend.",
     img: "/assets/projcet pics/slot booking.png",
-    iconLists: ["/react.svg", "/Tailwind CSS.svg", "/Vite.js.svg"],
+    iconLists: ["/React.svg", "/Tailwind CSS.svg", "/Vite.js.svg"],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
   },
