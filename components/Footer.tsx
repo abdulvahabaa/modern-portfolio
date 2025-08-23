@@ -1,11 +1,37 @@
+"use client";
+
+import { useState } from "react";
+import { IoCopyOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa6";
+import Lottie from "react-lottie";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import animationData from "@/data/confetti.json";
 
 const Footer = () => {
+  const [copied, setCopied] = useState(false);
+
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const handleCopy = () => {
+    const text = "abdulvahabaa916@gmail.com";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+
+    // reset after 2s
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10 relative" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -15,7 +41,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center relative">
         <h1 className="heading lg:max-w-[45vw]">
           Let’s <span className="text-purple">Connect</span> and{" "}
           <span className="text-purple">Build</span> Something{" "}
@@ -27,16 +53,42 @@ const Footer = () => {
           impactful.
         </p>
 
-        <a href="mailto:abdulvahabaa916@gmail.com">
+        {/* 🎉 Buttons row */}
+        <div className="flex flex-col md:flex-row gap-4 items-center mt-6 relative">
+          {/* Confetti effect */}
+          {copied && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <Lottie options={defaultOptions} height={450} width={450} />
+            </div>
+          )}
+
+          {/* Copy email button */}
           <MagicButton
-            title="Let's get in touch"
-            icon={<FaWhatsapp />}
+            title={copied ? "Email Copied!" : "Copy my email"}
+            icon={<IoCopyOutline />}
             position="left"
+            handleClick={handleCopy}
+            otherClasses="!bg-[#161A31]"
           />
-        </a>
+
+          {/* WhatsApp button */}
+          <a
+            href="https://wa.me/919747733770"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagicButton
+              title="Chat on WhatsApp"
+              icon={<FaWhatsapp />}
+              position="left"
+              otherClasses="!bg-[#161A31]"
+            />
+          </a>
+        </div>
       </div>
+
       <div className="flex mt-16 flex-col md:flex-row justify-between items-center gap-6 md:gap-0">
-        {/* Social icons (appear first on small, stay left on large) */}
+        {/* Social icons */}
         <div className="flex items-center gap-6 md:gap-3 order-1 md:order-none">
           {socialMedia.map((info) => (
             <a
@@ -60,7 +112,7 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Copyright (appear second on small, right side on large) */}
+        {/* Copyright */}
         <div className="flex flex-col items-center p-4 order-2 md:order-none">
           <p className="md:text-base text-sm md:font-normal font-light text-center">
             © 2025 Abdul Vahab • Professional Web Developer • Graphic Designer •
