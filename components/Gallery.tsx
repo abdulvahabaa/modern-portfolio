@@ -1,16 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-
-const images = [
-  "/assets/projcet pics/Backend API.png",
-  "/assets/projcet pics/Backend API.png",
-  "/assets/projcet pics/Backend API.png",
-  "/assets/projcet pics/Backend API.png",
-  "/assets/projcet pics/Backend API.png",
-  "/assets/projcet pics/Backend API.png",
- 
-];
+import { galleryItems } from "@/data";
 
 // Parent container animation
 const container = {
@@ -49,7 +40,7 @@ const Gallery = () => {
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
       >
-        My <span className="text-purple">Art Gallery</span>
+        My <span className="text-purple">Gallery</span>
       </motion.h1>
 
       <motion.div
@@ -60,7 +51,7 @@ const Gallery = () => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-          {images.map((src, index) => (
+          {galleryItems.map((src, index) => (
             <motion.div
               key={index}
               variants={card}
@@ -74,7 +65,7 @@ const Gallery = () => {
             >
               {/* Image with subtle parallax effect */}
               <motion.img
-                src={src}
+                src={src.img}
                 alt={`Artwork ${index + 1}`}
                 className="w-full h-64 object-cover"
                 whileHover={{ scale: 1.15 }}
@@ -88,9 +79,12 @@ const Gallery = () => {
                 initial={{ y: 40 }}
                 transition={{ duration: 0.4 }}
               >
-                <p className="text-white text-lg font-semibold">
-                  Artwork {index + 1}
-                </p>
+                <div className="flex flex-col items-center  gap-2">
+                  <p className="text-white text-sm font-semibold">
+                    {src.software}
+                  </p>
+                  <img className="w-10 h-10" src={src.logo} alt="logo" />
+                </div>
               </motion.div>
             </motion.div>
           ))}
