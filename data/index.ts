@@ -89,7 +89,7 @@ export const workExperience = [
     title: "Junior Software Engineer",
     subtitle: "@ Estro Tech Robotics Pvt.Ltd.",
     duration: "2023 - 2024",
-    desc: "Contributed to developing and maintaining web applications using Node.js and MongoDB, with experience in AWS Lambda, API Gateway, and third-party integrations.",
+    desc: "Developed scalable web apps using Node.js, MongoDB, AWS Lambda, and API Gateway, enhancing performance and integration capabilities.",
     className: "md:col-span-2",
     thumbnail: "/assets/svgs/exp1.svg",
   },
@@ -107,7 +107,7 @@ export const workExperience = [
     title: "Freelance App Dev Project",
     subtitle: "Custom MERN Web Applications",
     duration: "2024 - Present",
-    desc: "Built full stack MERN web applications with authentication, CRUD operations, and responsive UI for client needs.",
+    desc: "Built scalable MERN applications with secure authentication, optimized databases, and responsive UIs for real-world client needs.",
     className: "md:col-span-2",
     thumbnail: "/assets/svgs/exp3.svg",
   },
@@ -248,5 +248,26 @@ export const projects = [
     ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
+  },
+];
+
+export const galleryItems = [
+  {
+    id: 1,
+    software: "Adobe Photoshop",
+    img: "/assets/projcet pics/devconnect.jpg",
+    logo: "/assets/svgs/Adobe Photoshop.svg",
+  },
+  {
+    id: 2,
+    software: "Adobe Photoshop",
+    img: "/assets/projcet pics/bossbaby.png",
+    logo: "/assets/svgs/Adobe Illustrator.svg",
+  },
+  {
+    id: 3,
+    software: "Figma",
+    img: "/assets/projcet pics/slot booking.png",
+    logo: "/assets/svgs/figma.svg",
   },
 ];
