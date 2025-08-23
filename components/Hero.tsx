@@ -63,7 +63,7 @@ const Hero = () => {
             ))}
           </div>
 
-          <a href="/assets/Abdul Vahab Resume.pdf">
+          <a href="/assets/docs/Abdul Vahab Resume.pdf">
             <MagicButton
               title="Download Resume"
               icon={<RiFileDownloadFill />}
