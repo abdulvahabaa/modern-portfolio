@@ -74,7 +74,7 @@ const Hero = () => {
         <div>
           <img
             className="max-w-xs md:max-w-sm lg:max-w-md"
-            src="/Profile image edit.png"
+            src="/assets/images/Profile image edit.png"
             alt="hero"
           />
         </div>

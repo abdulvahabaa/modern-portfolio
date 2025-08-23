@@ -9,69 +9,69 @@ export const navItems = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/Gmail white.svg",
+    img: "/assets/svgs/Gmail white.svg",
     link: "mailto:abdulvahabaa@gmail.com",
   },
   {
     id: 2,
-    img: "/github.svg",
+    img: "/assets/svgs/github.svg",
     link: "https://github.com/abdulvahabaa",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/assets/svgs/link.svg",
     link: "https://www.linkedin.com/in/abdulvahabaa/",
   },
   {
     id: 4,
-    img: "/Behance.svg",
+    img: "/assets/svgs/Behance.svg",
     link: "https://www.behance.net/abdulvahab8",
   },
   {
     id: 5,
-    img: "/insta.svg",
+    img: "/assets/svgs/insta.svg",
     link: "https://www.instagram.com/abubakthiyarvlogs/",
   },
   {
     id: 6,
-    img: "/youtube-logo.svg",
+    img: "/assets/svgs/youtube-logo.svg",
     link: "https://www.youtube.com/@eldoradotechie",
   },
 ];
 
 export const SkillLogos = [
   // Frontend Basics
-  { id: 1, img: "/HTML5.svg" },
-  { id: 2, img: "/CSS3.svg" },
-  { id: 3, img: "/JavaScript.svg" },
-  { id: 4, img: "/TypeScript.svg" },
+  { id: 1, img: "/assets/svgs/HTML5.svg" },
+  { id: 2, img: "/assets/svgs/CSS3.svg" },
+  { id: 3, img: "/assets/svgs/JavaScript.svg" },
+  { id: 4, img: "/assets/svgs/TypeScript.svg" },
 
   // Frameworks & Libraries
-  { id: 5, img: "/React.svg" },
-  { id: 6, img: "/next.js.svg" },
-  { id: 7, img: "/Tailwind CSS.svg" },
+  { id: 5, img: "/assets/svgs/React.svg" },
+  { id: 6, img: "/assets/svgs/next.js.svg" },
+  { id: 7, img: "/assets/svgs/Tailwind CSS.svg" },
 
   // Backend & Databases
-  { id: 8, img: "/Node.js.svg" },
-  { id: 9, img: "/Git.svg" },
-  { id: 10, img: "/PostgresSQL.svg" },
-  { id: 11, img: "/MongoDB.svg" },
+  { id: 8, img: "/assets/svgs/Node.js.svg" },
+  { id: 9, img: "/assets/svgs/Git.svg" },
+  { id: 10, img: "/assets/svgs/PostgresSQL.svg" },
+  { id: 11, img: "/assets/svgs/MongoDB.svg" },
 
   // DevOps & Cloud
-  { id: 12, img: "/Docker.svg" },
-  { id: 13, img: "/AWS.svg" },
-  { id: 14, img: "/Powershell.svg" },
+  { id: 12, img: "/assets/svgs/Docker.svg" },
+  { id: 13, img: "/assets/svgs/AWS.svg" },
+  { id: 14, img: "/assets/svgs/Powershell.svg" },
 
   // Tools & Editors
-  { id: 15, img: "/VS Code.svg" },
-  { id: 16, img: "/Figma.svg" },
-  { id: 17, img: "/Postman.svg" },
+  { id: 15, img: "/assets/svgs/VS Code.svg" },
+  { id: 16, img: "/assets/svgs/Figma.svg" },
+  { id: 17, img: "/assets/svgs/Postman.svg" },
 
   // Adobe Creative Suite
-  { id: 18, img: "/Adobe Photoshop.svg" },
-  { id: 19, img: "/Adobe Illustrator.svg" },
-  { id: 20, img: "/Adobe XD.svg" },
-  { id: 21, img: "/Adobe Premiere Pro.svg" },
+  { id: 18, img: "/assets/svgs/Adobe Photoshop.svg" },
+  { id: 19, img: "/assets/svgs/Adobe Illustrator.svg" },
+  { id: 20, img: "/assets/svgs/Adobe XD.svg" },
+  { id: 21, img: "/assets/svgs/Adobe Premiere Pro.svg" },
 ];
 
 export const workExperience = [
@@ -82,7 +82,7 @@ export const workExperience = [
     duration: "2025 - Present",
     desc: "Delivering training on full stack web development, guiding students through real-world projects and modern technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/assets/svgs/exp4.svg",
   },
   {
     id: 2,
@@ -91,7 +91,7 @@ export const workExperience = [
     duration: "2023 - 2024",
     desc: "Contributed to developing and maintaining web applications using Node.js and MongoDB, with experience in AWS Lambda, API Gateway, and third-party integrations.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/assets/svgs/exp1.svg",
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ export const workExperience = [
     duration: "2024 - PartTime",
     desc: "Designed branding materials, promotional graphics, and social media content to enhance client visual presence.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/assets/svgs/exp2.svg",
   },
   {
     id: 4,
@@ -109,7 +109,7 @@ export const workExperience = [
     duration: "2024 - Present",
     desc: "Built full stack MERN web applications with authentication, CRUD operations, and responsive UI for client needs.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/assets/svgs/exp3.svg",
   },
 ];
 
@@ -168,11 +168,11 @@ export const projects = [
     des: "Developed a feature-rich platform supporting connections, posts, comments, replies, and S3 bucket for uploads.Implemented admin tools for managing users, reported posts, search, sort, filter, and export options (PDF/CSV).Secured the platform with JWT authentication for strong user protection.",
     img: "/assets/projcet pics/devconnect.jpg",
     iconLists: [
-      "/React.svg",
-      "/Material UI.svg",
-      "/Node.js.svg",
-      "/MongoDB.svg",
-      "/AWS.svg",
+      "/assets/svgs/React.svg",
+      "/assets/svgs/Material UI.svg",
+      "/assets/svgs/Node.js.svg",
+      "/assets/svgs/MongoDB.svg",
+      "/assets/svgs/AWS.svg",
     ],
     worklink: "",
     codeLink: "https://github.com/abdulvahabaa/bossbabyStore",
@@ -184,11 +184,11 @@ export const projects = [
     des: "Built a scalable e-commerce site with JavaScript,Handlebars.js,Bootstrap, Node.js, Express.js and MongoDB.Integrated secure payment processing and user authentication mechanisms.Optimized database queries, reducing page load time by 40%.",
     img: "/assets/projcet pics/bossbaby.png",
     iconLists: [
-      "/JavaScript.svg",
-      "/Bootstrap.svg",
-      "/Handlebars.svg",
-      "/MongoDB.svg",
-      "/AWS.svg",
+      "/assets/svgs/JavaScript.svg",
+      "/assets/svgs/Bootstrap.svg",
+      "/assets/svgs/Handlebars.svg",
+      "/assets/svgs/MongoDB.svg",
+      "/assets/svgs/AWS.svg",
     ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/bossbabyStore",
@@ -198,7 +198,11 @@ export const projects = [
     title: "Slot Booking App",
     des: "A REAL Slot booking app built using React, Tailwind CSS, and Vite.js For the frontend.",
     img: "/assets/projcet pics/slot booking.png",
-    iconLists: ["/React.svg", "/Tailwind CSS.svg", "/Vite.js.svg"],
+    iconLists: [
+      "/assets/svgs/React.svg",
+      "/assets/svgs/Tailwind CSS.svg",
+      "/assets/svgs/Vite.js.svg",
+    ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
   },
@@ -208,10 +212,10 @@ export const projects = [
     des: "Slot booking app built using React, Tailwind CSS, and Vite.js For the frontend.",
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
-      "/Node.js.svg",
-      "/Express White.png",
-      "/PostgresSQL.svg",
-      "/prisma.svg",
+      "/assets/svgs/Node.js.svg",
+      "/assets/svgs/Express White.png",
+      "/assets/svgs/PostgresSQL.svg",
+      "/assets/svgs/prisma.svg",
     ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
@@ -222,10 +226,10 @@ export const projects = [
     des: "Slot booking app built using React, Tailwind CSS, and Vite.js For the frontend.",
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
-      "/Node.js.svg",
-      "/Express White.png",
-      "/PostgresSQL.svg",
-      "/prisma.svg",
+      "/assets/svgs/Node.js.svg",
+      "/assets/svgs/Express White.png",
+      "/assets/svgs/PostgresSQL.svg",
+      "/assets/svgs/prisma.svg",
     ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
@@ -236,14 +240,13 @@ export const projects = [
     des: "Slot booking app built using React, Tailwind CSS, and Vite.js For the frontend.",
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
-      "/Node.js.svg",
-      "/Express White.png",
-      "/TypeScript.svg",
-      "/MongoDB.svg",
-      "/prisma.svg",
+      "/assets/svgs/Node.js.svg",
+      "/assets/svgs/Express White.png",
+      "/assets/svgs/TypeScript.svg",
+      "/assets/svgs/MongoDB.svg",
+      "/assets/svgs/prisma.svg",
     ],
     link: "",
     codeLink: "https://github.com/abdulvahabaa/slot-booking-App.git",
   },
 ];
-
