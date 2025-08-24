@@ -60,8 +60,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Web Developer | Graphic Designer | UI/UX Developer | Freelancer |
-            Based in India.
+            MERN Stack Developer • Graphic Designer • UI/UX Developer • Freelancer • Based in India.
           </p>
 
           {/* Social Media Links */}

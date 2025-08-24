@@ -119,9 +119,9 @@ export const educationData = [
     id: 1,
     type: "Education",
     degree: "Bachelor of Computer Applications (BCA)",
-    school: "Sreenarayana Guru Open University (SGOU)",
+    school: "Sreenarayanaguru Open University (SGOU)",
     duration: "2025 – Ongoing (Distance Learning)",
-    desc: "Focused on full-stack web development, software engineering, and creative digital arts.",
+    desc: "Focused on full-stack web development, software engineering, and creative digital technologies.",
   },
   {
     id: 2,
@@ -165,7 +165,7 @@ export const projects = [
   {
     id: 1,
     title: "Dev Connect Social Media App",
-    des: "Developed a feature-rich platform supporting connections, posts, comments, replies, and S3 bucket for uploads.Implemented admin tools for managing users, reported posts, search, sort, filter, and export options (PDF/CSV).Secured the platform with JWT authentication for strong user protection.",
+    des: "Built a social media app with posts, comments, replies, and S3-based uploads. Added admin tools for user/post management, reporting, search, and data export. Secured with JWT authentication.",
     img: "/assets/projcet pics/devconnect.jpg",
     iconLists: [
       "/assets/svgs/React.svg",
@@ -181,7 +181,7 @@ export const projects = [
   {
     id: 2,
     title: "BossBabyStore E-Commerce",
-    des: "Built a scalable e-commerce site with JavaScript,Handlebars.js,Bootstrap, Node.js, Express.js and MongoDB.Integrated secure payment processing and user authentication mechanisms.Optimized database queries, reducing page load time by 40%.",
+    des: "Developed a scalable e-commerce platform with secure payments, user authentication, efficient database management, and seamless shopping experience.",
     img: "/assets/projcet pics/bossbaby.png",
     iconLists: [
       "/assets/svgs/JavaScript.svg",
@@ -255,19 +255,19 @@ export const galleryItems = [
   {
     id: 1,
     software: "Adobe Photoshop",
-    img: "/assets/projcet pics/devconnect.jpg",
+    img: "/assets/images/burger.jpg",
     logo: "/assets/svgs/Adobe Photoshop.svg",
   },
   {
     id: 2,
-    software: "Adobe Photoshop",
-    img: "/assets/projcet pics/bossbaby.png",
-    logo: "/assets/svgs/Adobe Illustrator.svg",
+    software: "Figma",
+    img: "/assets/projcet pics/bossbaby admin.png",
+    logo: "/assets/svgs/figma.svg",
   },
   {
     id: 3,
     software: "Figma",
-    img: "/assets/projcet pics/slot booking.png",
+    img: "/assets/projcet pics/Figma devconnect.png",
     logo: "/assets/svgs/figma.svg",
   },
 ];
