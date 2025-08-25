@@ -33,7 +33,7 @@ This is my **modern developer portfolio**, built to showcase my projects, skills
 
 ## ⚙️ Tech Stack
 
-- `**Next.js** – React framework for SSR and routing
+- **Next.js** – React framework for SSR and routing
 - **Tailwind CSS** – Utility-first modern styling
 - **TypeScript** – Strongly typed JavaScript for scalability
 - **Framer Motion** – Smooth, interactive animations
@@ -47,21 +47,21 @@ This is my **modern developer portfolio**, built to showcase my projects, skills
 
 ## 🔋 Features
 
-> **`Modern Portfolio Showcase`** – Projects, skills, and achievements in one place
+📌 **`Modern Portfolio Showcase`** – Projects, skills, and achievements in one place
 
-> **`Clean UI/UX`** – Easy to navigate and visually appealing
+📌 **`Clean UI/UX`** – Easy to navigate and visually appealing
 
-> **`Responsive Design`** – Works flawlessly on all devices
+📌 **`Responsive Design`** – Works flawlessly on all devices
 
-> **`Interactive Animations`** – Framer Motion & Lottie for smooth transitions
+📌 **`Interactive Animations`** – Framer Motion & Lottie for smooth transitions
 
-> **`Custom UI Components`** – Built with shadcn/ui & Aceternity UI
+📌 **`Custom UI Components`** – Built with shadcn/ui & Aceternity UI
 
-> **`SEO Optimized`** – Metadata, OG tags, and better search ranking
+📌 **`SEO Optimized`** – Metadata, OG tags, and better search ranking
 
-> **`Fast Deployment`** – Hosted on Vercel with custom Hostinger domain
+📌 **`Fast Deployment`** – Hosted on Vercel with custom Hostinger domain
 
-> **`Clean Code Architecture`** – Easy to maintain and extend
+📌 **`Clean Code Architecture`** – Easy to maintain and extend
 
 ---
 
