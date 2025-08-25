@@ -47,14 +47,21 @@ This is my **modern developer portfolio**, built to showcase my projects, skills
 
 ## 🔋 Features
 
-👉 **Modern Portfolio Showcase** – Projects, skills, and achievements in one place
-👉 **Clean UI/UX** – Easy to navigate and visually appealing
-👉 **Responsive Design** – Works flawlessly on all devices
-👉 **Interactive Animations** – Framer Motion & Lottie for smooth transitions
-👉 **Custom UI Components** – Built with shadcn/ui & Aceternity UI
-👉 **SEO Optimized** – Metadata, OG tags, and better search ranking
-👉 **Fast Deployment** – Hosted on Vercel with custom Hostinger domain
-👉 **Clean Code Architecture** – Easy to maintain and extend
+> **`Modern Portfolio Showcase`** – Projects, skills, and achievements in one place
+
+> **`Clean UI/UX`** – Easy to navigate and visually appealing
+
+> **`Responsive Design`** – Works flawlessly on all devices
+
+> **`Interactive Animations`** – Framer Motion & Lottie for smooth transitions
+
+> **`Custom UI Components`** – Built with shadcn/ui & Aceternity UI
+
+> **`SEO Optimized`** – Metadata, OG tags, and better search ranking
+
+> **`Fast Deployment`** – Hosted on Vercel with custom Hostinger domain
+
+> **`Clean Code Architecture`** – Easy to maintain and extend
 
 ---
 
@@ -89,7 +96,7 @@ Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/abdulvahabaa/modern-portfolio.git
-cd portfolio
+cd modern portfolio
 ```
 
 ### **Installation**
