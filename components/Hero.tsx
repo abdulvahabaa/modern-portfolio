@@ -6,7 +6,7 @@ import MagicButton from "./ui/MagicButton";
 import { RiFileDownloadFill } from "react-icons/ri";
 import { socialMedia } from "@/data";
 import Lottie from "react-lottie";
-import confettiAnimation from "@/data/confetti.json"; // 👈 your lottie file
+import confettiAnimation from "@/data/confetti.json";
 
 const Hero = () => {
   const [showConfetti, setShowConfetti] = useState(false);
