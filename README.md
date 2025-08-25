@@ -1,4 +1,5 @@
 # 🚀 Modern Next.js Portfolio Website
+>This is my **modern developer portfolio**, built to showcase my projects, skills, and achievements. Designed with a **clean UI/UX**, smooth **animations**, and strong **SEO improvements**, it is fully responsive and optimized for performance.
 
 <div>
   <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="nextjs" />
@@ -70,7 +71,7 @@ This is my **modern developer portfolio**, built to showcase my projects, skills
 - **Hosting**: Deployed using [Vercel](https://vercel.com/)
 - **Custom Domain**: Configured with [Hostinger](https://www.hostinger.com/)
 
-Live Demo: [your-custom-domain.com](https://your-custom-domain.com)
+Live Demo: [Link](https://modern-portfolio-eta-eight.vercel.app/)
 
 ---
 
