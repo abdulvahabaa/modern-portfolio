@@ -171,6 +171,7 @@ export const projects = [
       "/assets/svgs/React.svg",
       "/assets/svgs/Material UI.svg",
       "/assets/svgs/Node.js.svg",
+      "/assets/images/Express White.png",
       "/assets/svgs/MongoDB.svg",
       "/assets/svgs/AWS.svg",
     ],
@@ -187,6 +188,7 @@ export const projects = [
       "/assets/svgs/JavaScript.svg",
       "/assets/svgs/Bootstrap.svg",
       "/assets/svgs/Handlebars.svg",
+      "/assets/images/Express White.png",
       "/assets/svgs/MongoDB.svg",
       "/assets/svgs/AWS.svg",
     ],
@@ -213,7 +215,7 @@ export const projects = [
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
       "/assets/svgs/Node.js.svg",
-      "/assets/svgs/Express White.png",
+      "/assets/images/Express White.png",
       "/assets/svgs/PostgresSQL.svg",
       "/assets/svgs/prisma.svg",
     ],
@@ -227,7 +229,7 @@ export const projects = [
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
       "/assets/svgs/Node.js.svg",
-      "/assets/svgs/Express White.png",
+      "/assets/images/Express White.png",
       "/assets/svgs/PostgresSQL.svg",
       "/assets/svgs/prisma.svg",
     ],
@@ -241,7 +243,7 @@ export const projects = [
     img: "/assets/projcet pics/Backend API.png",
     iconLists: [
       "/assets/svgs/Node.js.svg",
-      "/assets/svgs/Express White.png",
+      "/assets/images/Express White.png",
       "/assets/svgs/TypeScript.svg",
       "/assets/svgs/MongoDB.svg",
       "/assets/svgs/prisma.svg",
