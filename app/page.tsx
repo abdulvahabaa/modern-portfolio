@@ -1,6 +1,7 @@
 import Educaion from "@/components/Educaion";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Skills from "@/components/Skills";
@@ -17,6 +18,7 @@ export default function Home() {
         <Experience />
         <Educaion />
         <RecentProjects />
+        <Gallery />
         <Footer />
       </div>
     </main>
